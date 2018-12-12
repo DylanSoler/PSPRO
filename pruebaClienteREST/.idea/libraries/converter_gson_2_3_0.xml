@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="converter-gson-2.3.0">
+    <CLASSES>
+      <root url="jar:///media/dasoler/DYLAN/DAM/Segundo/PSPRO/jar_files(2)/converter-gson-2.3.0.jar!/" />
+      <root url="jar:///media/dasoler/DYLAN/DAM/Segundo/PSPRO/jar_files(2)/okhttp-3.8.0.jar!/" />
+      <root url="jar:///media/dasoler/DYLAN/DAM/Segundo/PSPRO/jar_files(2)/gson-2.7.jar!/" />
+      <root url="jar:///media/dasoler/DYLAN/DAM/Segundo/PSPRO/jar_files(2)/okio-1.13.0.jar!/" />
+      <root url="jar:///media/dasoler/DYLAN/DAM/Segundo/PSPRO/jar_files(2)/retrofit-2.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

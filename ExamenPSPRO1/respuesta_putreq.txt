@@ -1,0 +1,30 @@
+// Build a response
+var msg;
+var numpag;
+
+//if(request.request_method == 'GET' && request.params.maxpag && request.params.minpag) {
+    
+//   response.headers['Content-Type'] = 'application/json';
+//   numpag = request.params.maxpag-1;
+//   msg = '[{"cod": 1, "titulo": "Don Quijote de la mancha", "numpag":'+numpag+'}';
+//   msg = msg +',' + '{"cod": 2, "titulo": "Harry Potter", "numpag":'+(numpag-2)+'}]';
+   
+//}
+//else {
+//   msg = "ALGO HA IDO MAL";
+   //código de error:
+//   response.status = 400;
+//}
+
+//response.body = msg;
+// Forward a request
+// request.forwardTo = 'http://example.com/api';
+
+response.status = 200;
+response.body = '[{"id":"7781","productos":[{"cod":"348","nombre":"Patito de goma","precio":4},{"cod":"19","nombre":"Sacacorchos 1","precio":3}]},' +
+                 '{"id":"596","productos":[{"cod":"811","nombre":"Balón de playa","precio":2},{"cod":"802","nombre":"Toalla marinero","precio":8},' +
+                                                                                              '{"cod":"5992","nombre":"Sombrilla palmeras","precio":12}]}]';
+                                                                                              
+                                                                                              
+
+
