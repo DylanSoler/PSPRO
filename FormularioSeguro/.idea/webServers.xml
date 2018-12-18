@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a2c62acb-9b9d-4740-8bed-c716293b0eb6" name="vagrant" url="http://formulario.devel:8080">
+        <fileTransfer host="127.0.0.1" port="2222" rootFolder="/home/vagrant/www/formulario.devel" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
