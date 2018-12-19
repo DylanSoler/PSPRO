@@ -15,7 +15,14 @@ $gest = new GestionUsuarios();
 //Si ya esta registrado
 if ($existe) {
     //Verificar contraseña
-    echo'hola k ase';
+    $resHash = $gest->obtenerHash($usuario);
+    $hash = $resHash["password"];
+    $passwCorrecta = password_verify($passw,$hash);
+
+    if($passwCorrecta)
+        echo 'Contrasenia correcta';
+    else
+        echo 'Contrasenia incorrecta';
 }
 //Si no
 else {

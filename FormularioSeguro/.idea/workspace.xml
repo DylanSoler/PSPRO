@@ -71,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ControlLogin.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ControlLogin.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ControlLogin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            <state relative-caret-position="342">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -84,7 +84,7 @@
       <file leaf-file-name="ConexionBD.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConexionBD.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1242">
+            <state relative-caret-position="321">
               <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding>
                 <element signature="e#7#85#0#PHP" expanded="true" />
@@ -93,17 +93,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GestionUsuarios.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GestionUsuarios.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GestionUsuarios.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+            <state relative-caret-position="284">
+              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding>
                 <element signature="e#6#89#0#PHP" expanded="true" />
-                <marker date="1545043747119" expanded="true" signature="374:425" ph="INSERT INTO Usuarios... " />
-                <marker date="1545043747119" expanded="true" signature="828:944" ph="SELECT * FRO... Usuarios" />
-                <marker date="1545043747119" expanded="true" signature="865:887" ph="SELECT * FRO... Usuarios" />
-                <marker date="1545043747119" expanded="true" signature="865:904" ph="SELECT * FRO... Usuarios" />
+                <marker date="1545205752491" expanded="true" signature="374:425" ph="INSERT INTO Usuarios... " />
+                <marker date="1545205752491" expanded="true" signature="799:915" ph="SELECT * FRO... Usuarios" />
+                <marker date="1545205752491" expanded="true" signature="836:858" ph="SELECT * FRO... Usuarios" />
+                <marker date="1545205752491" expanded="true" signature="836:875" ph="SELECT * FRO... Usuarios" />
+                <marker date="1545205752491" expanded="true" signature="1315:1361" ph="SELECT passw... Usuarios" />
               </folding>
             </state>
           </provider>
@@ -118,8 +119,8 @@
         <option value="$PROJECT_DIR$/gestion.php" />
         <option value="$PROJECT_DIR$/gestionUsuarios.php" />
         <option value="$PROJECT_DIR$/config/config.ini" />
-        <option value="$PROJECT_DIR$/ControlLogin.php" />
         <option value="$PROJECT_DIR$/GestionUsuarios.php" />
+        <option value="$PROJECT_DIR$/ControlLogin.php" />
       </list>
     </option>
   </component>
@@ -160,8 +161,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -273,17 +274,18 @@
       <workItem from="1544898614614" duration="5962000" />
       <workItem from="1545035128408" duration="7845000" />
       <workItem from="1545043334828" duration="535000" />
+      <workItem from="1545204385419" duration="208000" />
+      <workItem from="1545204612503" duration="2847000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14342000" />
+    <option name="totallyTimeSpent" value="17397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25379092" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26177174" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -311,18 +313,93 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/GestionUsuarios.php</url>
-          <line>36</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Formulario.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ControlLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConexionBD.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GestionUsuarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+            <marker date="1545205752491" expanded="true" signature="374:425" ph="INSERT INTO Usuarios... " />
+            <marker date="1545205752491" expanded="true" signature="799:915" ph="SELECT * FRO... Usuarios" />
+            <marker date="1545205752491" expanded="true" signature="836:858" ph="SELECT * FRO... Usuarios" />
+            <marker date="1545205752491" expanded="true" signature="836:875" ph="SELECT * FRO... Usuarios" />
+            <marker date="1545205752491" expanded="true" signature="1315:1361" ph="SELECT passw... Usuarios" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Formulario.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ControlLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConexionBD.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GestionUsuarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+            <marker date="1545205752491" expanded="true" signature="374:425" ph="INSERT INTO Usuarios... " />
+            <marker date="1545205752491" expanded="true" signature="799:915" ph="SELECT * FRO... Usuarios" />
+            <marker date="1545205752491" expanded="true" signature="836:858" ph="SELECT * FRO... Usuarios" />
+            <marker date="1545205752491" expanded="true" signature="836:875" ph="SELECT * FRO... Usuarios" />
+            <marker date="1545205752491" expanded="true" signature="1315:1361" ph="SELECT passw... Usuarios" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Formulario.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -355,10 +432,11 @@
           <caret line="27" column="7" lean-forward="false" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="29" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
-            <marker date="1545043747119" expanded="true" signature="374:425" ph="INSERT INTO Usuarios... " />
-            <marker date="1545043747119" expanded="true" signature="828:944" ph="SELECT * FRO... Usuarios" />
-            <marker date="1545043747119" expanded="true" signature="865:887" ph="SELECT * FRO... Usuarios" />
-            <marker date="1545043747119" expanded="true" signature="865:904" ph="SELECT * FRO... Usuarios" />
+            <marker date="1545205752491" expanded="true" signature="374:425" ph="INSERT INTO Usuarios... " />
+            <marker date="1545205752491" expanded="true" signature="799:915" ph="SELECT * FRO... Usuarios" />
+            <marker date="1545205752491" expanded="true" signature="836:858" ph="SELECT * FRO... Usuarios" />
+            <marker date="1545205752491" expanded="true" signature="836:875" ph="SELECT * FRO... Usuarios" />
+            <marker date="1545205752491" expanded="true" signature="1315:1361" ph="SELECT passw... Usuarios" />
           </folding>
         </state>
       </provider>
@@ -402,10 +480,11 @@
           <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
-            <marker date="1545043747119" expanded="true" signature="374:425" ph="INSERT INTO Usuarios... " />
-            <marker date="1545043747119" expanded="true" signature="828:944" ph="SELECT * FRO... Usuarios" />
-            <marker date="1545043747119" expanded="true" signature="865:887" ph="SELECT * FRO... Usuarios" />
-            <marker date="1545043747119" expanded="true" signature="865:904" ph="SELECT * FRO... Usuarios" />
+            <marker date="1545205752491" expanded="true" signature="374:425" ph="INSERT INTO Usuarios... " />
+            <marker date="1545205752491" expanded="true" signature="799:915" ph="SELECT * FRO... Usuarios" />
+            <marker date="1545205752491" expanded="true" signature="836:858" ph="SELECT * FRO... Usuarios" />
+            <marker date="1545205752491" expanded="true" signature="836:875" ph="SELECT * FRO... Usuarios" />
+            <marker date="1545205752491" expanded="true" signature="1315:1361" ph="SELECT passw... Usuarios" />
           </folding>
         </state>
       </provider>
@@ -417,6 +496,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ConexionBD.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Formulario.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -425,35 +514,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ControlLogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConexionBD.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#85#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GestionUsuarios.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+        <state relative-caret-position="284">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
-            <marker date="1545043747119" expanded="true" signature="374:425" ph="INSERT INTO Usuarios... " />
-            <marker date="1545043747119" expanded="true" signature="828:944" ph="SELECT * FRO... Usuarios" />
-            <marker date="1545043747119" expanded="true" signature="865:887" ph="SELECT * FRO... Usuarios" />
-            <marker date="1545043747119" expanded="true" signature="865:904" ph="SELECT * FRO... Usuarios" />
+            <marker date="1545205752491" expanded="true" signature="374:425" ph="INSERT INTO Usuarios... " />
+            <marker date="1545205752491" expanded="true" signature="799:915" ph="SELECT * FRO... Usuarios" />
+            <marker date="1545205752491" expanded="true" signature="836:858" ph="SELECT * FRO... Usuarios" />
+            <marker date="1545205752491" expanded="true" signature="836:875" ph="SELECT * FRO... Usuarios" />
+            <marker date="1545205752491" expanded="true" signature="1315:1361" ph="SELECT passw... Usuarios" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ControlLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

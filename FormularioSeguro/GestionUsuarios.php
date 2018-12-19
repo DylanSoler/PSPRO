@@ -25,7 +25,7 @@ class gestionUsuarios
         $psw = $passw;
 
         $result = $stmt->execute();
-        $stmt->free_result();
+
         $stmt->close();
         $conBD->closeConnection();
 
@@ -41,17 +41,15 @@ class gestionUsuarios
 
         $stmt = $conexion->prepare("SELECT * FROM Usuarios WHERE UserName=?");
         $stmt->bind_param('s',$user);
-        $stmt->store_result();
-
-
 
         $stmt->execute();
+        $result = $stmt->get_result();
 
         if($stmt->affected_rows>0)
         {
             $ret = true;
         }
-        $stmt->free_result();
+
         $stmt->close();
         $conBD->closeConnection();
 
@@ -60,5 +58,23 @@ class gestionUsuarios
     }
 
 
+    function obtenerHash($user){
+
+        $conBD = ConexionBD::getInstance();
+        $conexion = $conBD->getConnection();
+
+        $stmt = $conexion->prepare("SELECT password FROM Usuarios WHERE UserName=?");
+        $stmt->bind_param('s',$user);
+
+        $stmt->execute();
+        $result = $stmt->get_result();
+
+        $row = $result->fetch_assoc();
+
+        $stmt->close();
+        $conBD->closeConnection();
+
+        return $row;
+    }
 
 }
