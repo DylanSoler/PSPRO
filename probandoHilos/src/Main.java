@@ -6,8 +6,10 @@ public class Main {
     public static void main (String[]args)
     {
         Buffer b = new Buffer();
-        Productor prod = new Productor(b);
-        Recolector recol = new Recolector(b);
+        Monitor mon = new Monitor();
+
+        Productor prod = new Productor(mon);
+        Recolector recol = new Recolector(mon);
 
         Thread threadP = new Thread(prod);
         Thread threadR = new Thread(recol);

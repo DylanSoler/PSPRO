@@ -6,12 +6,10 @@ import java.util.Random;
 public class Recolector implements Runnable
 {
 
-    private Buffer buffer;
     private int veces = 10;
     private Monitor monitor;
 
-    public Recolector(Buffer b, Monitor mon){
-        this.buffer = b;
+    public Recolector(Monitor mon){
         this.monitor = mon;
     }
 
@@ -22,6 +20,7 @@ public class Recolector implements Runnable
         {
             Random ram = new Random();
             int tiempo = ram.nextInt(3000)+1000;
+            System.out.println("Recolector duerme: "+tiempo);
 
             try {
                 Thread.sleep(tiempo);
@@ -29,12 +28,15 @@ public class Recolector implements Runnable
                 e.printStackTrace();
             }
 
-            if (buffer.getNumBuffer().size()>0) {
-                int n = buffer.getNumBuffer().get(0);
-                buffer.picker();
+            if (Buffer.numBuffer.size()>0) {
+                int n = Buffer.numBuffer.get(0);
+                System.out.println("Recolector coge el numero: "+n);
+                Buffer.picker();
                 monitor.doNotify();
+                System.out.println("Recolector notifica");
             } else {
                 i--;
+                System.out.println("Recoletor duerme, buffer vacio");
                 monitor.doWait();
             }
         }

@@ -5,12 +5,10 @@ import java.util.Random;
  */
 public class Productor implements Runnable
 {
-    private Buffer buffer;
     private int veces = 10;
     private Monitor monitor;
 
-    public Productor(Buffer b, Monitor mon){
-        this.buffer = b;
+    public Productor(Monitor mon){
         this.monitor = mon;
     }
 
@@ -22,17 +20,21 @@ public class Productor implements Runnable
             Random ram = new Random();
             int tiempo = ram.nextInt(3000)+1000;
             System.out.println("Productor duerme: "+tiempo);
+
             try {
                 Thread.sleep(tiempo);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
 
-            if (buffer.getNumBuffer().size() > buffer.maximoCapacidad) {
-                buffer.add(i);
+            if (Buffer.numBuffer.size() < Buffer.maximoCapacidad) {
+                Buffer.add(i);
+                System.out.println("Productor añade "+i);
                 monitor.doNotify();
+                System.out.println("Productor notifica ");
             } else {
                 i--;
+                System.out.println("Productor duerme (Buffer lleno)");
                 monitor.doWait();
             }
         }

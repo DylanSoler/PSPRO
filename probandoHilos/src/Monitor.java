@@ -3,12 +3,12 @@
  */
 public class Monitor
 {
-    Monitor myMonitor = new Monitor();
+    Inutil inutilMonitorObject = new Inutil();
 
     public void doWait(){
-        synchronized (myMonitor){
+        synchronized (inutilMonitorObject){
             try {
-                myMonitor.wait();
+                inutilMonitorObject.wait();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -16,8 +16,10 @@ public class Monitor
     }
 
     public void doNotify(){
-        synchronized (myMonitor){
-                myMonitor.notify();
+        synchronized (inutilMonitorObject){
+            inutilMonitorObject.notify();
         }
     }
 }
+
+class Inutil{}
